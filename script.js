@@ -1,4 +1,4 @@
-
+const temp = document.getElementById("gif");
 
 let ageIntervalId; // Variable to hold the interval ID
 
@@ -15,6 +15,7 @@ function calculateAge() {
 }
 
 function startAgeUpdate() {
+    temp.style.display = "block";
     calculateAge(); // Initial calculation
     // Start updating the age every 0.1 second (100 milliseconds)
     ageIntervalId = setInterval(calculateAge, 100);
