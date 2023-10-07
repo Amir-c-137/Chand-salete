@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    font-size: 18px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.persian-text {
+    font-family: 'Your Persian Font', sans-serif; /* Replace 'Your Persian Font' with the desired font family name */
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #333; /* Set your desired text color */
+    line-height: 1.5; /* Set line height for better readability */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: hsla(213, 100%, 71%, 0.871);
+    color: hsl(0, 79%, 44%);
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: hsl(213, 65%, 52%);
+    transform: scale(1.2);
+}
