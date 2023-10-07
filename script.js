@@ -11,7 +11,7 @@ function calculateAge() {
     const ageMilliseconds = now - dob;
     const ageYears = ageMilliseconds / (365.25 * 24 * 60 * 60 * 1000); // Account for leap years
 
-    ageOutput.textContent = `Age: ${ageYears.toFixed(12)} years old`;
+    ageOutput.textContent = `تو ${ageYears.toFixed(12)} سالته`;
 }
 
 function startAgeUpdate() {
