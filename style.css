@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #FCEDDA;
 }
 
 .container {
@@ -8,7 +9,7 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #EE4E34;
 }
 
 label {
@@ -18,6 +19,9 @@ label {
 input {
     padding: 10px;
     font-size: 16px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
 }
 
 p {
@@ -35,18 +39,18 @@ p {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: hsla(213, 100%, 71%, 0.871);
-    color: hsl(0, 79%, 44%);
+    background-color: #fff176;
+    color: #101820;
     text-decoration: none;
     border-radius: 25px;
     font-weight: bold;
     margin-top: 20px;
     transition: all 0.3s ease;
     outline: none;
-    border: 1px solid black;
+    border: none;
 }
 
 .button:hover {
-    background-color: hsl(213, 65%, 52%);
+    background-color: #FEE715;
     transform: scale(1.2);
 }
