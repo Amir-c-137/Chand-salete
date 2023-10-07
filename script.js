@@ -14,7 +14,6 @@ function calculateAge() {
 
 function startAgeUpdate() {
     calculateAge(); // Initial calculation
-
     // Start updating the age every 0.1 second (100 milliseconds)
     ageIntervalId = setInterval(calculateAge, 100);
 }
