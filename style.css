@@ -19,11 +19,12 @@ body {
 }
 
 div {
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 h1 {
-    color: #EE4E34;
+    color: #EE4E34; 
+    padding-bottom: 20px;
 }
 
 label {
