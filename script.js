@@ -1,3 +1,5 @@
+
+
 let ageIntervalId; // Variable to hold the interval ID
 
 function calculateAge() {

@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #FCEDDA;
     display: flex;
+    flex-direction: column;
     justify-content: center; /* Horizontally center */
     align-items: center; /* Vertically center */
     min-height: 100vh; /* Ensure the container takes the full viewport height */
@@ -11,6 +12,7 @@ body {
 .container {
     background-color:#ffe4c1;
     width: 700;
+    margin-bottom: 20px;
     padding: 50px;
     border-radius: 20px;
     text-align: center;
@@ -55,4 +57,4 @@ p {
     color: #101820;
     text-decoration: none;
     border-radius: 25px;
-   
+}
