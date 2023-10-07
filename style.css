@@ -1,11 +1,23 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #FCEDDA;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    min-height: 100vh; /* Ensure the container takes the full viewport height */
+    margin: 0; /* Remove default body margin */
 }
 
 .container {
+    background-color:#ffe4c1;
+    width: 700;
+    padding: 50px;
+    border-radius: 20px;
     text-align: center;
-    margin: 50px;
+}
+
+div {
+    padding-top: 10px;
 }
 
 h1 {
@@ -43,14 +55,4 @@ p {
     color: #101820;
     text-decoration: none;
     border-radius: 25px;
-    font-weight: bold;
-    margin-top: 20px;
-    transition: all 0.3s ease;
-    outline: none;
-    border: none;
-}
-
-.button:hover {
-    background-color: #FEE715;
-    transform: scale(1.2);
-}
+   
